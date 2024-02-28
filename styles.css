@@ -12,10 +12,11 @@ body {
 }
 
 .video-container {
-    max-width: 100%; /* Ensures the video container doesn't exceed the width of its parent element */
+    max-width: 100%;
     margin: 20px auto;
-    overflow: hidden; /* Hides any part of the video that exceeds the container's dimensions */
-}
+    overflow: hidden;
+    display: flex; /* Display as flex container */
+    justify-content: center; /* Center content horizontally */
 }
 
 #video-player {
