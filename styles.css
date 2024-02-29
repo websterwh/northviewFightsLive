@@ -15,10 +15,10 @@ body {
     max-width: 100%;
     margin: 20px auto;
     overflow: hidden;
-    display: flex; /* Display as flex container */
-    justify-content: center; /* Center content horizontally */
+    display: flex;
+    justify-content: center;
 }
 
 #video-player {
-    width: 100%;
+    width: 100%; /* Adjust this value to resize the video */
 }
